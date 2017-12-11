@@ -1,0 +1,77 @@
+*{
+  margin:0;
+  padding:0;
+  font-family:'Nunito';
+}
+ #Logotipo-brand:hover #Icon-twiter{
+  fill: #81F7F3;
+}
+ #Logotipo-brand:hover #Icon-Lupa{
+  fill: #81F7F3;
+}
+header{
+  position:fixed;
+  top:0;
+}
+ header #main-nav{
+  background:#2A2948;
+  position:absolute;
+  top:0;
+  width:100%;
+  border-radius:0px;
+  border-bottom: 1px solid #010002;
+  z-index:999;
+}
+header #main-nav a{
+  text-decoration:none;
+  color:#FFF;
+  padding:20px;
+  padding-left:0px;
+  font-family:'Nunito';
+  font-weight:bold; 
+  float:left;
+  margin-right:1%;
+  font-size:40px;
+}
+ .img-logo-brand{
+  width:100%;
+  position:absolute;
+  z-index:1001;
+  top:0;
+}
+.jumbotron {
+  background: #532F8C;
+  color: white;
+  padding-bottom: 80px;
+}
+.jumbotron .btn-primary {
+  background: #845ac7;
+  border-color: #845ac7;
+}
+.jumbotron .btn-primary:hover {
+  background: #7646c1;
+}
+.jumbotron p {
+  color: #d9ccee;
+  max-width: 75%;
+  margin: 1em auto 2em;
+}
+.jumbotron h1 {
+  font-size: 40px;
+}
+.navbar + .jumbotron {
+  margin-top: -20px;
+}
+.jumbotron .lang-logo {
+  display: block;
+  background: #B01302;
+  border-radius: 50%;
+  overflow: hidden;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  border: 2px solid white;
+}
+.jumbotron .lang-logo img {
+  max-width: 100%;
+}
